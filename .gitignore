@@ -26,8 +26,9 @@ env/
 .coverage
 htmlcov/
 
-# Claude Code
-.claude/
+# Claude Code — keep agents, exclude local settings and memory
+.claude/*
+!.claude/agents/
 
 # IDEs
 .idea/
